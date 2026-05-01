@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: wheat;
+  --background: #f8fafc;
   --main-color: rgb(233, 170, 11);
   --secondary-color: green;
   --text-color: #333 !important;
@@ -11,7 +11,7 @@
   --box-shadow: 0 0 3px 0px #333;
 }
 .dark-mode {
-  --background: #333 !important;
+  --background: #0f172a !important;
   --text-color: wheat !important;
   --border-main: 1px solid wheat;
   --form-background: #524e4eb2;
