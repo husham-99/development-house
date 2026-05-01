@@ -1,0 +1,14 @@
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: var(--secondary-color);
+  margin-top: 50px;
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+@media (max-width: 750px) {
+  .footer {
+    font-size: 13px !important;
+  }
+}

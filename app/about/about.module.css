@@ -1,0 +1,138 @@
+.mainInfo {
+  margin-top: 150px;
+  width: 70%;
+}
+.mainInfo p {
+  text-align: justify;
+}
+.mainInfo h1 {
+  font-size: 35px;
+  font-weight: bold;
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+}
+
+.mainInfo h2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: var(--secondary-color);
+  margin-bottom: 40px;
+}
+
+.mainInfo h3 {
+  font-size: 25px;
+  font-weight: bold;
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+}
+
+.mainInfo p {
+  font-size: 20px;
+  line-height: 2;
+  margin-bottom: 40px;
+  color: var(--text-color);
+}
+.subContent {
+  display: flex;
+  justify-content: space-between;
+}
+.target {
+  width: 60%;
+  box-shadow: 0 0 7px 1px #bbb;
+  padding: 20px;
+}
+.strategy {
+  width: 35%;
+  box-shadow: 0 0 7px 1px #bbb;
+  padding: 20px;
+}
+.subContent ul {
+  list-style-position: outside;
+  padding-right: 20px;
+}
+.subContent ul li {
+  list-style-type: circle;
+  line-height: 2;
+  font-size: 20px;
+  text-align: justify;
+  color: var(--text-color);
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+.title h2 {
+  font-size: 25px;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+.title .icon {
+  font-size: 35px;
+  color: var(--secondary-color);
+}
+
+@media (max-width: 1080px) {
+  /* srtategy */
+  .subContent {
+    flex-direction: column;
+    align-items: center;
+  }
+  .target {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .strategy {
+    width: 100%;
+  }
+
+  .subContent ul li {
+    line-height: 2;
+    font-size: 14.5px;
+  }
+  .subContent ul {
+    padding-right: 10px;
+  }
+
+  .title {
+    gap: 30px;
+    margin-bottom: 18px;
+  }
+  .title h2 {
+    font-size: 18px;
+  }
+  .title .icon {
+    font-size: 30px;
+    color: var(--secondary-color);
+  }
+}
+
+@media (max-width: 750px) {
+  .mainInfo {
+    margin-top: 100px;
+    width: 100%;
+  }
+  .mainInfo h1 {
+    font-size: 25px;
+  }
+
+  .mainInfo h2 {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  .mainInfo h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+  }
+
+  .mainInfo p {
+    font-size: 14px;
+    line-height: 2;
+    margin-bottom: 30px;
+  }
+}
