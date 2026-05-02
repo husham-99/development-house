@@ -29,6 +29,7 @@
 }
 .picture .image {
   border-radius: 20px;
+  border: 1px solid wheat;
 }
 
 @media (max-width: 1080px) {
