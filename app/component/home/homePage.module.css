@@ -79,18 +79,18 @@
 .funding .info h2 {
   font-size: 35px;
   font-weight: bold;
-  color: var(--secondary-color);
+  color: var(--heading-color);
 }
 
 .funding .info p {
   font-size: 30px;
   font-weight: bold;
-  color: var(--secondary-color);
+  color: var(--heading-color);
 }
 .funding .info h3 {
   font-size: 25px;
   font-weight: bold;
-  color: var(--secondary-color);
+  color: var(--heading-color);
   margin-top: 15px;
 }
 .funding .links {
@@ -141,7 +141,7 @@
 }
 .introduction h2 {
   font-size: 35px;
-  color: var(--secondary-color);
+  color: var(--heading-color);
   font-weight: bold;
   margin-bottom: 15px;
 }
@@ -171,7 +171,6 @@
   .funding .info h2 {
     font-size: 25px;
     font-weight: bold;
-    color: var(--secondary-color);
   }
   .funding .info {
     width: 49%;
@@ -180,12 +179,12 @@
   .funding .info p {
     font-size: 20px;
     font-weight: bold;
-    color: var(--secondary-color);
+    color: var(--heading-color);
   }
   .funding .info h3 {
     font-size: 20px;
     font-weight: bold;
-    color: var(--secondary-color);
+    color: var(--heading-color);
     margin-top: 15px;
   }
   .funding .links {
@@ -251,7 +250,7 @@
   .funding .info h3 {
     font-size: 14px;
     font-weight: bold;
-    color: var(--secondary-color);
+    color: var(--heading-color);
     margin-top: 15px;
   }
   .funding .links {
@@ -271,7 +270,7 @@
   /* introduction */
   .introduction h2 {
     font-size: 20px;
-    color: var(--secondary-color);
+    color: var(--heading-color);
     font-weight: bold;
     margin-bottom: 15px;
   }

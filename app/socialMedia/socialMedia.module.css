@@ -5,7 +5,7 @@
 .main h1 {
   font-size: 35px;
   font-weight: bold;
-  color: var(--secondary-color);
+  color: var(--heading-color);
   margin-bottom: 150px;
 }
 
@@ -41,7 +41,7 @@
 .social .item h2 {
   font-size: 20px;
   font-weight: 700;
-  color: var(--secondary-color);
+  color: var(--heading-color);
 }
 
 .heigh {

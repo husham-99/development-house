@@ -8,21 +8,21 @@
 .mainInfo h1 {
   font-size: 35px;
   font-weight: bold;
-  color: var(--secondary-color);
+  color: var(--heading-color);
   margin-bottom: 15px;
 }
 
 .mainInfo h2 {
   font-size: 25px;
   font-weight: bold;
-  color: var(--secondary-color);
+  color: var(--heading-color);
   margin-bottom: 40px;
 }
 
 .mainInfo h3 {
   font-size: 25px;
   font-weight: bold;
-  color: var(--secondary-color);
+  color: var(--heading-color);
   margin-bottom: 15px;
 }
 
@@ -66,12 +66,12 @@
 }
 .title h2 {
   font-size: 25px;
-  color: var(--secondary-color);
+  color: var(--heading-color);
   font-weight: bold;
 }
 .title .icon {
   font-size: 35px;
-  color: var(--secondary-color);
+  color: var(--heading-color);
 }
 
 @media (max-width: 1080px) {
@@ -105,7 +105,7 @@
   }
   .title .icon {
     font-size: 30px;
-    color: var(--secondary-color);
+    color: var(--heading-color);
   }
 }
 
@@ -126,7 +126,7 @@
   .mainInfo h3 {
     font-size: 20px;
     font-weight: bold;
-    color: var(--secondary-color);
+    color: var(--heading-color);
     margin-bottom: 15px;
   }
 
