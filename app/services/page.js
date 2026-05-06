@@ -13,7 +13,7 @@ const Services = () => {
     <section className="container">
       <main className={module.services}>
         <div className={module.info}>
-          <Accordion defaultExpanded>
+          <Accordion className={module.accordion} defaultExpanded>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1-content"
@@ -49,7 +49,7 @@ const Services = () => {
               </Typography>
             </AccordionDetails>
           </Accordion>
-          <Accordion>
+          <Accordion className={module.accordion}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel2-content"
@@ -80,7 +80,7 @@ const Services = () => {
               </Typography>
             </AccordionDetails>
           </Accordion>
-          <Accordion>
+          <Accordion className={module.accordion}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel2-content"
@@ -108,7 +108,7 @@ const Services = () => {
               </Typography>
             </AccordionDetails>
           </Accordion>
-          <Accordion>
+          <Accordion className={module.accordion}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel2-content"
@@ -145,8 +145,7 @@ const Services = () => {
               </Typography>
             </AccordionDetails>
           </Accordion>
-
-          <Accordion>
+          <Accordion className={module.accordion}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel2-content"
@@ -174,7 +173,7 @@ const Services = () => {
               </Typography>
             </AccordionDetails>
           </Accordion>
-          <Accordion>
+          <Accordion className={module.accordion}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel2-content"

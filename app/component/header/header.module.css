@@ -263,6 +263,9 @@
   .navLinksWrapper .themeIcon {
     display: none;
   }
+  .themeIcon {
+    font-size: 26px;
+  }
   .logo2 {
     display: block;
     margin: auto;

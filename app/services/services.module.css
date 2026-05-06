@@ -3,6 +3,10 @@
   display: flex;
   justify-content: space-between;
 }
+.accordion {
+  background-color: var(--accordion-background) !important;
+  color: var(--text-color);
+}
 
 .services .info {
   width: 52%;
@@ -10,7 +14,7 @@
 .services .info .title {
   font-size: 20px !important;
   font-family: Cairo;
-  color: var(--secondary-color);
+  color: var(--heading-color);
   font-weight: bold;
 }
 .services .info h2 {
@@ -18,6 +22,7 @@
   font-size: 18px;
   line-height: 2;
   text-align: justify;
+  color: var(--text-color);
 }
 .services .info ul {
   list-style-position: outside;
@@ -29,6 +34,7 @@
   font-size: 18px;
   line-height: 2;
   text-align: justify;
+  color: var(--text-color);
 }
 .services .image {
   width: 43%;
@@ -67,6 +73,6 @@
     font-size: 16px !important;
   }
   .heigh {
-    display: none;
+    height: 210px;
   }
 }

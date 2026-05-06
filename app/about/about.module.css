@@ -38,12 +38,12 @@
 }
 .target {
   width: 60%;
-  box-shadow: 0 0 7px 1px #bbb;
+  box-shadow: var(--intro-shadow);
   padding: 20px;
 }
 .strategy {
   width: 35%;
-  box-shadow: 0 0 7px 1px #bbb;
+  box-shadow: var(--intro-shadow);
   padding: 20px;
 }
 .subContent ul {

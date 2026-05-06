@@ -135,7 +135,7 @@
 }
 
 .introduction {
-  box-shadow: 0 0 5px 1px #bbb;
+  box-shadow: var(--intro-shadow);
   padding: 20px 15px;
   margin-top: 150px;
 }

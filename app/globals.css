@@ -8,17 +8,19 @@
   --secondary-dark: #777;
   --border-main: 1px solid #333;
   --form-background: silver;
-  --box-shadow: 0 0 3px 0px #333;
   --heading-color: green !important;
+  --intro-shadow: 0 0 5px 1px #bbb;
+  --accordion-background: wheat !important;
 }
 .dark-mode {
   --background: #0f172a !important;
   --text-color: #f3f4f6 !important;
   --border-main: 1px solid #cbd5e1 !important;
   --form-background: #524e4eb2;
-  --box-shadow: 0 0 3px 0px #bbb;
   --heading-color: #cbd5e1 !important;
   --secondary-color: #333333 !important;
+  --intro-shadow: 0 0 5px 1px #000000 !important;
+  --accordion-background: #333 !important;
 }
 
 body {

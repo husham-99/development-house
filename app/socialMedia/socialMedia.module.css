@@ -22,7 +22,7 @@
   margin-bottom: 20px;
   justify-content: space-between;
   align-items: center;
-  box-shadow: var(--box-shadow);
+  box-shadow: var(--intro-shadow);
   width: 200px;
   margin: auto;
   height: 150px;
