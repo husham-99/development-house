@@ -209,7 +209,11 @@
     width: 100%;
     margin-top: 10px;
     background-color: var(--secondary-color);
-    /* Add a background color for better visibility on mobile */
+    background-image: url(../../assets/transparent2.png);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
   }
   .navLinks li {
     display: block;
@@ -271,5 +275,6 @@
     margin: auto;
     filter: brightness(100%);
     filter: opacity(90%);
+    border-top: var(--border-top);
   }
 }

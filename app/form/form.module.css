@@ -51,7 +51,7 @@
 }
 
 .section {
-  box-shadow: var(--box-shadow);
+  box-shadow: var(--intro-shadow);
   padding: 20px;
   margin-bottom: 15px;
 }

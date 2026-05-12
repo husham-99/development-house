@@ -7,10 +7,11 @@
   --text-color: #333 !important;
   --secondary-dark: #777;
   --border-main: 1px solid #333;
-  --form-background: silver;
+  --form-background: wheat;
   --heading-color: green !important;
   --intro-shadow: 0 0 5px 1px #bbb;
   --accordion-background: wheat !important;
+  --border-top: 2px solid rgba(255, 255, 255, 0.3);
 }
 .dark-mode {
   --background: #0f172a !important;
@@ -21,6 +22,7 @@
   --secondary-color: #333333 !important;
   --intro-shadow: 0 0 5px 1px #000000 !important;
   --accordion-background: #333 !important;
+  --border-top: 2px solid green;
 }
 
 body {
