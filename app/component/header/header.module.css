@@ -209,11 +209,11 @@
     width: 100%;
     margin-top: 10px;
     background-color: var(--secondary-color);
-    background-image: url(../../assets/transparent2.png);
+    /* background-image: url(../../assets/transparent2.png);
     background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); */
   }
   .navLinks li {
     display: block;
