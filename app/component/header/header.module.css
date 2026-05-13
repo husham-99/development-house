@@ -208,7 +208,7 @@
   .navLinks {
     width: 100%;
     margin-top: 10px;
-    background-color: var(--secondary-color);
+    background: var(--navlinks-color) !important;
     /* background-image: url(../../assets/transparent2.png);
     background-size: cover;
     background-position: left;

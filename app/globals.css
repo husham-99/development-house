@@ -12,6 +12,7 @@
   --intro-shadow: 0 0 5px 1px #bbb;
   --accordion-background: wheat !important;
   --border-top: 2px solid rgba(255, 255, 255, 0.3);
+  --navlinks-color: linear-gradient(to right, green, black) !important;
 }
 .dark-mode {
   --background: #0f172a !important;
@@ -23,6 +24,7 @@
   --intro-shadow: 0 0 5px 1px #000000 !important;
   --accordion-background: #333 !important;
   --border-top: 2px solid green;
+  --navlinks-color: linear-gradient(to right, #333, #000000) !important;
 }
 
 body {
