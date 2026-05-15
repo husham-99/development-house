@@ -225,7 +225,8 @@
     font-size: 14px;
   }
   .mainSection div {
-    padding: 20px 25px;
+    padding: 20px 5px !important;
+    width: 90% !important;
   }
 
   /* funding */
